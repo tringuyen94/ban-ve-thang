@@ -1,0 +1,1286 @@
+[
+  {
+    "maKhachHang": "0001",
+    "tenKH": "Môi trường Đô thị",
+    "tenOVua": "Cty TNHH Môi Trường ",
+    "ghiChu": "141 ql1a p.tambinh q.thu duc"
+  },
+  {
+    "maKhachHang": "0003",
+    "tenKH": "Chị Ba",
+    "tenOVua": "Bãi Xe Chị Ba",
+    "ghiChu": "Cont 03"
+  },
+  {
+    "maKhachHang": "0004",
+    "tenKH": "Trần  Thị Mai",
+    "tenOVua": "Bãi Giữ Xe Hùng Cườn",
+    "ghiChu": "Bãi Giữ Xe Hùng Cường"
+  },
+  {
+    "maKhachHang": "00048",
+    "tenKH": "Nguyễn  Viết Ngọ",
+    "tenOVua": "",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "0005",
+    "tenKH": "Nguyễn  Đăng Quý",
+    "tenOVua": "",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "0006",
+    "tenKH": "Đặng  Thị The",
+    "tenOVua": "",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "0007",
+    "tenKH": "Kim Thành Phát",
+    "tenOVua": "Cty TNHH Kim Thành P",
+    "ghiChu": "141"
+  },
+  {
+    "maKhachHang": "0008",
+    "tenKH": "Trần Thanh Bon",
+    "tenOVua": "Hoàng Bon",
+    "ghiChu": "Số Ô: 44,45,46,47"
+  },
+  {
+    "maKhachHang": "0009",
+    "tenKH": "Trịnh Tú Châu",
+    "tenOVua": "Hòa Chu",
+    "ghiChu": "Ô: 20,21,22"
+  },
+  {
+    "maKhachHang": "0010",
+    "tenKH": "Trương Thị Bích Phượng",
+    "tenOVua": "Phượng Hùng",
+    "ghiChu": "Ô: 3 - Phượng Hùng"
+  },
+  {
+    "maKhachHang": "0011",
+    "tenKH": "Trương Nguyễn Minh Tấn",
+    "tenOVua": "Tấn Thử",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "0012",
+    "tenKH": "Trương Thị Kim Loan",
+    "tenOVua": "Chành Nga Loan",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "0013",
+    "tenKH": "Lý Thành Tân",
+    "tenOVua": "Chành Diễm Ty",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "0014",
+    "tenKH": "Nguyễn  Thị Bích Thuận",
+    "tenOVua": "Chành Nguyễn Thuận",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "0015",
+    "tenKH": "Trần Thị Thanh",
+    "tenOVua": "Chành Thanh Uyên",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "0016",
+    "tenKH": "Chiem Tiến",
+    "tenOVua": "Chủ xe khu dân cư ch",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "0017",
+    "tenKH": "Đào Thanh Cao",
+    "tenOVua": "Đào Thanh Cao",
+    "ghiChu": "Đào Thanh Cao"
+  },
+  {
+    "maKhachHang": "0018",
+    "tenKH": "Trần Thị Hồng",
+    "tenOVua": "Trần Thị Hồng",
+    "ghiChu": "Chành Hồng Huế"
+  },
+  {
+    "maKhachHang": "0019",
+    "tenKH": "Phạm Hồng Phi",
+    "tenOVua": "Phạm Hồng Phi",
+    "ghiChu": "Phạm Hồng Phi"
+  },
+  {
+    "maKhachHang": "0020",
+    "tenKH": "Nguyễn Ngọc Tú",
+    "tenOVua": "Nguyễn Ngọc Tú",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "0021",
+    "tenKH": "Bùi Văn Thuận",
+    "tenOVua": "Bùi Văn Thuận",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "0022",
+    "tenKH": "Cty TNHH SP Service",
+    "tenOVua": "Cty TNHH SP Service",
+    "ghiChu": "Cty TNHH SP Service"
+  },
+  {
+    "maKhachHang": "0023",
+    "tenKH": "Phương",
+    "tenOVua": "Phương",
+    "ghiChu": "Phương"
+  },
+  {
+    "maKhachHang": "0025",
+    "tenKH": "Nguyễn Ngọc Huỳnh",
+    "tenOVua": "Huỳnh Hùng",
+    "ghiChu": "Huỳnh Hùng - MS Bãi Cont 1: 5,6"
+  },
+  {
+    "maKhachHang": "0026",
+    "tenKH": "Nguyễn Thị Hương",
+    "tenOVua": "Mười Ba",
+    "ghiChu": "Ms Bãi Cont 1: 7,8,48,49"
+  },
+  {
+    "maKhachHang": "0027",
+    "tenKH": "Hứa Phước Lợi",
+    "tenOVua": "Thảo Lợi",
+    "ghiChu": "Ms Bãi Cont: 9,10,50,51"
+  },
+  {
+    "maKhachHang": "0028",
+    "tenKH": "Lê Vũ Anh Duy",
+    "tenOVua": "Tùng Tam Đảo",
+    "ghiChu": "Ms Bãi Cont1: 13,14"
+  },
+  {
+    "maKhachHang": "0029",
+    "tenKH": "Lưu Ngọc Hồng",
+    "tenOVua": "Hồng Sài Gòn",
+    "ghiChu": "Ms Bãi Cont 1: 15,16"
+  },
+  {
+    "maKhachHang": "0030",
+    "tenKH": "Nguyễn Thị Phương Dung",
+    "tenOVua": "Nguyễn Thị Phương Du",
+    "ghiChu": "Ms bãi cont 1: 20"
+  },
+  {
+    "maKhachHang": "0031",
+    "tenKH": "Vũ Việt Anh",
+    "tenOVua": "Vũ Việt Anh",
+    "ghiChu": "Ms bãi cont 1: 21"
+  },
+  {
+    "maKhachHang": "0032",
+    "tenKH": "Trần Thị Hồng",
+    "tenOVua": "Hồng Huế",
+    "ghiChu": "Ms bãi cont 1: 39,40,41,42,43"
+  },
+  {
+    "maKhachHang": "0033",
+    "tenKH": "Phan Thị Thảo",
+    "tenOVua": "Vinh Khánh",
+    "ghiChu": "Ms bãi cont 1: 24,25"
+  },
+  {
+    "maKhachHang": "0034",
+    "tenKH": "Nguyễn Thị Thanh Vân",
+    "tenOVua": "Thanh Lỳ",
+    "ghiChu": "Ms bãi cont 1: 26,27"
+  },
+  {
+    "maKhachHang": "0035",
+    "tenKH": "Trần Thị Thanh",
+    "tenOVua": "Thanh Uyên",
+    "ghiChu": "Ms bãi cont 1: 22,23,28,29."
+  },
+  {
+    "maKhachHang": "0036",
+    "tenKH": "Lý Thành Tân",
+    "tenOVua": "Diễm Ty",
+    "ghiChu": "Ms bãi cont 1: 30,31,46,47"
+  },
+  {
+    "maKhachHang": "0037",
+    "tenKH": "Châu Thị Xuyên Đông",
+    "tenOVua": "Thanh Hải",
+    "ghiChu": "Ms bãi cont 1: 4,32,33"
+  },
+  {
+    "maKhachHang": "0038",
+    "tenKH": "Trần Thanh Bon",
+    "tenOVua": "Hoàng Bon",
+    "ghiChu": "Ms bãi cont 1: 34,35,44,45"
+  },
+  {
+    "maKhachHang": "0039",
+    "tenKH": "Cty CP ĐT-TM Vân Phong",
+    "tenOVua": "Vân Phong",
+    "ghiChu": "Ms bãi cont 1: 18,19"
+  },
+  {
+    "maKhachHang": "0040",
+    "tenKH": "Cty TNHH MTV DL & TM Biển Đông Việ",
+    "tenOVua": "Việt Đức",
+    "ghiChu": "Ms bãi cont 1: 36"
+  },
+  {
+    "maKhachHang": "0041",
+    "tenKH": "DNTN Rau Quả Bình Thuận",
+    "tenOVua": "Rau Quả Bình Thuận",
+    "ghiChu": "Ms bãi cont 1: 37,38"
+  },
+  {
+    "maKhachHang": "0042",
+    "tenKH": "Nguyễn Thanh Tùng",
+    "tenOVua": "Nguyễn Thanh Tùng",
+    "ghiChu": "Nguyễn Thanh Tùng"
+  },
+  {
+    "maKhachHang": "0043",
+    "tenKH": "Nguyễn Văn Phong",
+    "tenOVua": "Nguyễn Văn Phong",
+    "ghiChu": "Nguyễn Văn Phong"
+  },
+  {
+    "maKhachHang": "0044",
+    "tenKH": "Phạm Văn Thuyên",
+    "tenOVua": "Phạm Văn Thuyên",
+    "ghiChu": "Phạm Văn Thuyên"
+  },
+  {
+    "maKhachHang": "0045",
+    "tenKH": "Phạm Thị Cải",
+    "tenOVua": "",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "0046",
+    "tenKH": "Lâm Tuấn Khoa",
+    "tenOVua": "",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "0048",
+    "tenKH": "LƯU NGỌC HỒNG",
+    "tenOVua": "LƯU NGỌC HỒNG",
+    "ghiChu": "HỒNG SÀI GÒN"
+  },
+  {
+    "maKhachHang": "0049",
+    "tenKH": "Nguyễn Thị Xuân Nga",
+    "tenOVua": "",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "0051",
+    "tenKH": "NGUYỄN THUẬN",
+    "tenOVua": "NGUYỄN THUẬN",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "0052",
+    "tenKH": "",
+    "tenOVua": "BÃI XE KHÁNH HOÀNG",
+    "ghiChu": "BÃI XE KHÁNH HOÀNG"
+  },
+  {
+    "maKhachHang": "0053",
+    "tenKH": "Khánh Khánh Hoàng",
+    "tenOVua": "Khánh Hoàng",
+    "ghiChu": "Khánh Hoàng"
+  },
+  {
+    "maKhachHang": "0054",
+    "tenKH": "LÂM HỒNG NHI",
+    "tenOVua": "",
+    "ghiChu": "KHÁNH ĐA"
+  },
+  {
+    "maKhachHang": "0055",
+    "tenKH": "",
+    "tenOVua": "SONG HÀNH",
+    "ghiChu": "SONG HÀNH"
+  },
+  {
+    "maKhachHang": "0056",
+    "tenKH": "cao thị hương",
+    "tenOVua": "thu mua phế liệu",
+    "ghiChu": "SONG HÀNH"
+  },
+  {
+    "maKhachHang": "100",
+    "tenKH": "PHAN NHƯ THẢO",
+    "tenOVua": "VINH KHÁNH",
+    "ghiChu": "VINH KHÁNH"
+  },
+  {
+    "maKhachHang": "101",
+    "tenKH": "TRƯƠNG HỒNG DŨNG",
+    "tenOVua": "BGX ĐỒNG HỒ",
+    "ghiChu": "BGX ĐỒNG HỒ"
+  },
+  {
+    "maKhachHang": "102",
+    "tenKH": "NGUYỄN MINH ĐỨC",
+    "tenOVua": "H2-06",
+    "ghiChu": "H2-06"
+  },
+  {
+    "maKhachHang": "103",
+    "tenKH": "SÁU HẰNG",
+    "tenOVua": "D8-01",
+    "ghiChu": "D8-01"
+  },
+  {
+    "maKhachHang": "104",
+    "tenKH": "SÁU HẰNG",
+    "tenOVua": "D8-01",
+    "ghiChu": "D8-01"
+  },
+  {
+    "maKhachHang": "105",
+    "tenKH": "HỨA PHƯỚC LỢI",
+    "tenOVua": "THẢO LỢI",
+    "ghiChu": "THẢO LỢI"
+  },
+  {
+    "maKhachHang": "106",
+    "tenKH": "ANH DŨNG PHÚ QUỐC",
+    "tenOVua": "E6-19",
+    "ghiChu": "E6-19"
+  },
+  {
+    "maKhachHang": "107",
+    "tenKH": "VÂN",
+    "tenOVua": "I1-06",
+    "ghiChu": "I1-06"
+  },
+  {
+    "maKhachHang": "108",
+    "tenKH": "NGUYỄN VĂN DŨNG",
+    "tenOVua": "F1-13",
+    "ghiChu": "F1-13"
+  },
+  {
+    "maKhachHang": "109",
+    "tenKH": "ĐỨC TRUNG",
+    "tenOVua": "HẠNH NGỘ",
+    "ghiChu": "HẠNH NGỘ"
+  },
+  {
+    "maKhachHang": "110",
+    "tenKH": "DŨNG ẤM",
+    "tenOVua": "F1-13",
+    "ghiChu": "F1-13"
+  },
+  {
+    "maKhachHang": "111",
+    "tenKH": "NGUYỄN THỊ BÍCH GIANG",
+    "tenOVua": "M1-8.9",
+    "ghiChu": "M1-8.9"
+  },
+  {
+    "maKhachHang": "112",
+    "tenKH": "DŨNG TRANG",
+    "tenOVua": "E2-16",
+    "ghiChu": "E2-16"
+  },
+  {
+    "maKhachHang": "113",
+    "tenKH": "THÚY TRỌN",
+    "tenOVua": "G32",
+    "ghiChu": "G32"
+  },
+  {
+    "maKhachHang": "114",
+    "tenKH": "NGUYỄN VĂN PHÁT",
+    "tenOVua": "E6-38",
+    "ghiChu": "E6-38"
+  },
+  {
+    "maKhachHang": "115",
+    "tenKH": "KIỆT HỒNG",
+    "tenOVua": "E5-01",
+    "ghiChu": "E5-01"
+  },
+  {
+    "maKhachHang": "116",
+    "tenKH": "ĐOÀN VĂN THỪA",
+    "tenOVua": "I1-11",
+    "ghiChu": "I1-11"
+  },
+  {
+    "maKhachHang": "117",
+    "tenKH": "LÊ ÚT",
+    "tenOVua": "D9-28",
+    "ghiChu": "D9-28"
+  },
+  {
+    "maKhachHang": "118",
+    "tenKH": "HUỲNH VĂN NAM",
+    "tenOVua": "E6-27",
+    "ghiChu": "E6-27 TÂM ANH"
+  },
+  {
+    "maKhachHang": "119",
+    "tenKH": "NGUYỄN THỊ NGỌC DUYÊN",
+    "tenOVua": "N1-07",
+    "ghiChu": "N1-07 (NHẤT NAM)"
+  },
+  {
+    "maKhachHang": "120",
+    "tenKH": "HOÀNG VĂN NAM",
+    "tenOVua": "D6-28",
+    "ghiChu": "D6-28"
+  },
+  {
+    "maKhachHang": "121",
+    "tenKH": "HÀ TRUNG NGUYÊN",
+    "tenOVua": "LÊN KÉT 1,2,3",
+    "ghiChu": "LÊN KÉT 1,2,3"
+  },
+  {
+    "maKhachHang": "123",
+    "tenKH": "PHAN VĂN TÂM",
+    "tenOVua": "C5-21",
+    "ghiChu": "C5-21"
+  },
+  {
+    "maKhachHang": "124",
+    "tenKH": "HIẾU",
+    "tenOVua": "E4-23",
+    "ghiChu": "E4-23"
+  },
+  {
+    "maKhachHang": "125",
+    "tenKH": "KHOA",
+    "tenOVua": "C4-24",
+    "ghiChu": "C4-24"
+  },
+  {
+    "maKhachHang": "126",
+    "tenKH": "NGUYỄN ANH QUỐC",
+    "tenOVua": "F1-15",
+    "ghiChu": "F1-15"
+  },
+  {
+    "maKhachHang": "127",
+    "tenKH": "NGUYỄN VĂN ÚT",
+    "tenOVua": "A1-21",
+    "ghiChu": "A1-21"
+  },
+  {
+    "maKhachHang": "128",
+    "tenKH": "NGUYỄN VĂN ÚT",
+    "tenOVua": "A1-21",
+    "ghiChu": "A1-21"
+  },
+  {
+    "maKhachHang": "129",
+    "tenKH": "LỆ THẬT",
+    "tenOVua": "B2-27",
+    "ghiChu": "B2-27"
+  },
+  {
+    "maKhachHang": "130",
+    "tenKH": "DƯƠNG THANH HOA",
+    "tenOVua": "F1-10",
+    "ghiChu": "F1-10"
+  },
+  {
+    "maKhachHang": "131",
+    "tenKH": "CHỊ LOAN",
+    "tenOVua": "E6-24",
+    "ghiChu": "E6-24"
+  },
+  {
+    "maKhachHang": "132",
+    "tenKH": "TRẦN THỊ THANH",
+    "tenOVua": "THANH UYÊN",
+    "ghiChu": "THANH UYÊN"
+  },
+  {
+    "maKhachHang": "133",
+    "tenKH": "ĐẶNG TẤN HÙNG",
+    "tenOVua": "O1-16",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "134",
+    "tenKH": "BÉ TƯ",
+    "tenOVua": "F1-03",
+    "ghiChu": "F1-03"
+  },
+  {
+    "maKhachHang": "135",
+    "tenKH": "NGUYỄN THỊ NGON",
+    "tenOVua": "C6-41",
+    "ghiChu": "C6-41"
+  },
+  {
+    "maKhachHang": "136",
+    "tenKH": "CHÂU ANH",
+    "tenOVua": "I2-06",
+    "ghiChu": "I2-06"
+  },
+  {
+    "maKhachHang": "137",
+    "tenKH": "DƯƠNG THANH TÙNG",
+    "tenOVua": "E6-07",
+    "ghiChu": "E6-07"
+  },
+  {
+    "maKhachHang": "138",
+    "tenKH": "BÙI HỮU TIẾN",
+    "tenOVua": "F1-10",
+    "ghiChu": "F1-10"
+  },
+  {
+    "maKhachHang": "139",
+    "tenKH": "BÉ TƯ",
+    "tenOVua": "F1-03",
+    "ghiChu": "F1-03"
+  },
+  {
+    "maKhachHang": "140",
+    "tenKH": "NGUYỄN THỊ NGON",
+    "tenOVua": "C6-41",
+    "ghiChu": "C6-41"
+  },
+  {
+    "maKhachHang": "141",
+    "tenKH": "DANH ĐẠI",
+    "tenOVua": "H1-18",
+    "ghiChu": "H1-18"
+  },
+  {
+    "maKhachHang": "142",
+    "tenKH": "NGUYỄN THỊ THANH LAN",
+    "tenOVua": "A4-27",
+    "ghiChu": "A4-27"
+  },
+  {
+    "maKhachHang": "143",
+    "tenKH": "NGUYỄN VĂN LUÔNG",
+    "tenOVua": "E1-01",
+    "ghiChu": "E1-01"
+  },
+  {
+    "maKhachHang": "144",
+    "tenKH": "NGUYỄN VĂN HIỆP",
+    "tenOVua": "O1-12",
+    "ghiChu": "O1-12"
+  },
+  {
+    "maKhachHang": "145",
+    "tenKH": "CHỊ THẢO",
+    "tenOVua": "A1-04",
+    "ghiChu": "A1-04"
+  },
+  {
+    "maKhachHang": "146",
+    "tenKH": "ANH CẢNH",
+    "tenOVua": "E6-03",
+    "ghiChu": "E6-03"
+  },
+  {
+    "maKhachHang": "147",
+    "tenKH": "ANH TOÀN",
+    "tenOVua": "J1-17",
+    "ghiChu": "J1-17"
+  },
+  {
+    "maKhachHang": "148",
+    "tenKH": "ANH QUANG",
+    "tenOVua": "M2-08",
+    "ghiChu": "M2-08"
+  },
+  {
+    "maKhachHang": "149",
+    "tenKH": "BỐC XẾP",
+    "tenOVua": "TỔ 8 VÀ 11",
+    "ghiChu": "TỔ 8 VÀ 11"
+  },
+  {
+    "maKhachHang": "150",
+    "tenKH": "HIỆP SƯƠNG",
+    "tenOVua": "A6-48",
+    "ghiChu": "A6-48"
+  },
+  {
+    "maKhachHang": "151",
+    "tenKH": "ANH THÀNH",
+    "tenOVua": "C5-01",
+    "ghiChu": "C5-01"
+  },
+  {
+    "maKhachHang": "152",
+    "tenKH": "NGUYỄN VĂN NHU",
+    "tenOVua": "A5-39",
+    "ghiChu": "A5-39"
+  },
+  {
+    "maKhachHang": "153",
+    "tenKH": "ANH NINH",
+    "tenOVua": "E2-48",
+    "ghiChu": "E2-48"
+  },
+  {
+    "maKhachHang": "154",
+    "tenKH": "DƯƠNG THANH MAI",
+    "tenOVua": "J1-07",
+    "ghiChu": "J1-07"
+  },
+  {
+    "maKhachHang": "155",
+    "tenKH": "TRẦN THỊ BÍCH THỦY",
+    "tenOVua": "C6-38",
+    "ghiChu": "C6-38"
+  },
+  {
+    "maKhachHang": "156",
+    "tenKH": "THẠCH CÔNG",
+    "tenOVua": "E6-01",
+    "ghiChu": "E6-01"
+  },
+  {
+    "maKhachHang": "157",
+    "tenKH": "NGUYỄN TẤN DUY",
+    "tenOVua": "L2-14",
+    "ghiChu": "L2-14"
+  },
+  {
+    "maKhachHang": "158",
+    "tenKH": "PHẨM QUỐC THÁI",
+    "tenOVua": "N1-20",
+    "ghiChu": "N1-20"
+  },
+  {
+    "maKhachHang": "159",
+    "tenKH": "NGUYỄN TRỌNG DANH",
+    "tenOVua": "A1-20",
+    "ghiChu": "A1-20"
+  },
+  {
+    "maKhachHang": "160",
+    "tenKH": "ĐINH NGỌC DIỄM",
+    "tenOVua": "F1-19",
+    "ghiChu": "F1-19"
+  },
+  {
+    "maKhachHang": "161",
+    "tenKH": "TRẦN ANH THẾ BẢO",
+    "tenOVua": "A2-41",
+    "ghiChu": "A2-41"
+  },
+  {
+    "maKhachHang": "162",
+    "tenKH": "HUỶNH MINH CƯƠNG",
+    "tenOVua": "O1-20",
+    "ghiChu": "O1-20"
+  },
+  {
+    "maKhachHang": "163",
+    "tenKH": "VÕ VĂN TOÀN",
+    "tenOVua": "L1-18",
+    "ghiChu": "L1-18"
+  },
+  {
+    "maKhachHang": "164",
+    "tenKH": "HIẾU THIÊN",
+    "tenOVua": "A5-48",
+    "ghiChu": "A5-48"
+  },
+  {
+    "maKhachHang": "165",
+    "tenKH": "DƯƠNG THANH TÙNG",
+    "tenOVua": "E6-07",
+    "ghiChu": "E6-07"
+  },
+  {
+    "maKhachHang": "166",
+    "tenKH": "DANH ĐẠI",
+    "tenOVua": "H1-18",
+    "ghiChu": "H1-18"
+  },
+  {
+    "maKhachHang": "167",
+    "tenKH": "ĐỖ VĂN THĂNG",
+    "tenOVua": "O2-01",
+    "ghiChu": "O2-01"
+  },
+  {
+    "maKhachHang": "168",
+    "tenKH": "ANH PHÚC",
+    "tenOVua": "F2-10",
+    "ghiChu": "F2-10"
+  },
+  {
+    "maKhachHang": "169",
+    "tenKH": "NGUYỄN VĂN CƯỜNG",
+    "tenOVua": "A3-35",
+    "ghiChu": "A3-35"
+  },
+  {
+    "maKhachHang": "170",
+    "tenKH": "LOAN LINH",
+    "tenOVua": "A1-34",
+    "ghiChu": "A1-34"
+  },
+  {
+    "maKhachHang": "171",
+    "tenKH": "NGUYỄN VĂN TRUNG",
+    "tenOVua": "E6-10",
+    "ghiChu": "E6-10"
+  },
+  {
+    "maKhachHang": "172",
+    "tenKH": "TRỊNH TÚ CHÂU",
+    "tenOVua": "A1-28",
+    "ghiChu": "A1-28"
+  },
+  {
+    "maKhachHang": "173",
+    "tenKH": "NGUYỄN THỊ BÍCH GIANG",
+    "tenOVua": "M1-8.9",
+    "ghiChu": "M1-8.9"
+  },
+  {
+    "maKhachHang": "174",
+    "tenKH": "TUYẾN NGỪ",
+    "tenOVua": "A1-35",
+    "ghiChu": "A1-35"
+  },
+  {
+    "maKhachHang": "175",
+    "tenKH": "VÕ HOÀI PHONG",
+    "tenOVua": "E6-36",
+    "ghiChu": "E6-36"
+  },
+  {
+    "maKhachHang": "176",
+    "tenKH": "NGUYỄN THỊ THANH THÚY",
+    "tenOVua": "C4-05",
+    "ghiChu": "C4-05"
+  },
+  {
+    "maKhachHang": "177",
+    "tenKH": "Trần Văn Trọng",
+    "tenOVua": "A3-40",
+    "ghiChu": "Xe ba gác"
+  },
+  {
+    "maKhachHang": "178",
+    "tenKH": "DƯƠNG CHẤN THÀNH",
+    "tenOVua": "H2-01",
+    "ghiChu": "CHỊ THÚY - XE BA GÁC"
+  },
+  {
+    "maKhachHang": "179",
+    "tenKH": "NGỌC LIÊN",
+    "tenOVua": "H2-18",
+    "ghiChu": "H2-18"
+  },
+  {
+    "maKhachHang": "180",
+    "tenKH": "NGỌC MAI",
+    "tenOVua": "J2-18",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "181",
+    "tenKH": "F1-01",
+    "tenOVua": "F1-01",
+    "ghiChu": "F1-01"
+  },
+  {
+    "maKhachHang": "182",
+    "tenKH": "NGÔ THANH VÂN",
+    "tenOVua": "F1-24",
+    "ghiChu": "F1240403"
+  },
+  {
+    "maKhachHang": "183",
+    "tenKH": "NGUYỄN VĂN ÚT",
+    "tenOVua": "A1-21",
+    "ghiChu": "A1-21"
+  },
+  {
+    "maKhachHang": "184",
+    "tenKH": "bagac",
+    "tenOVua": "E2-18",
+    "ghiChu": "BaGac"
+  },
+  {
+    "maKhachHang": "185",
+    "tenKH": "bagac",
+    "tenOVua": "G32",
+    "ghiChu": "BaGac"
+  },
+  {
+    "maKhachHang": "186",
+    "tenKH": "L2-09",
+    "tenOVua": "L2-09",
+    "ghiChu": "L2-09"
+  },
+  {
+    "maKhachHang": "187",
+    "tenKH": "ĐỨC",
+    "tenOVua": "A1-41",
+    "ghiChu": "A1-41"
+  },
+  {
+    "maKhachHang": "188",
+    "tenKH": "TẠ CHÍ THANH",
+    "tenOVua": "B7-34",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "189",
+    "tenKH": "MAI",
+    "tenOVua": "J2-18",
+    "ghiChu": "J2-18"
+  },
+  {
+    "maKhachHang": "190",
+    "tenKH": "TRƯƠNG THỊ BÍCH NGỌC",
+    "tenOVua": "KHU DÂN CƯ",
+    "ghiChu": "KHU DÂN CƯ"
+  },
+  {
+    "maKhachHang": "191",
+    "tenKH": "TẠ BÃI TDH",
+    "tenOVua": "BÃI TDH",
+    "ghiChu": "BÃI TDH"
+  },
+  {
+    "maKhachHang": "192",
+    "tenKH": "TRÍ",
+    "tenOVua": "H2-20",
+    "ghiChu": "H2-20"
+  },
+  {
+    "maKhachHang": "193",
+    "tenKH": "NGUYỄN VĂN TUẤN",
+    "tenOVua": "E1-32",
+    "ghiChu": "E1-32"
+  },
+  {
+    "maKhachHang": "194",
+    "tenKH": "PHẠM HOÀI NINH",
+    "tenOVua": "N1-07",
+    "ghiChu": "N1-07"
+  },
+  {
+    "maKhachHang": "195",
+    "tenKH": "Nguyễn Thị Bích Giang",
+    "tenOVua": "M1-8.9",
+    "ghiChu": "M1-8.9"
+  },
+  {
+    "maKhachHang": "196",
+    "tenKH": "NAM CHÂN",
+    "tenOVua": "CTY CP TTP NAM CHÂN",
+    "ghiChu": "CTY CP TTP NAM CHÂN"
+  },
+  {
+    "maKhachHang": "197",
+    "tenKH": "NGUYỄN HUY ĐẠT",
+    "tenOVua": "CTY XNK NGUYỄN HUY",
+    "ghiChu": "CTY XNK NGUYỄN HUY"
+  },
+  {
+    "maKhachHang": "198",
+    "tenKH": "TRẦN HỒNG THU",
+    "tenOVua": "A3-42",
+    "ghiChu": "A3-42"
+  },
+  {
+    "maKhachHang": "199",
+    "tenKH": "TRẦN HỒNG THU",
+    "tenOVua": "A3-42",
+    "ghiChu": "A3-42"
+  },
+  {
+    "maKhachHang": "200",
+    "tenKH": "Trần HỒNG THU",
+    "tenOVua": "A3-42",
+    "ghiChu": "A3-42"
+  },
+  {
+    "maKhachHang": "201",
+    "tenKH": "TRẦN HỒNG THU",
+    "tenOVua": "A3-42",
+    "ghiChu": "A3-42"
+  },
+  {
+    "maKhachHang": "202",
+    "tenKH": "LÂM SƯ VINH",
+    "tenOVua": "I1-03",
+    "ghiChu": "I1-03"
+  },
+  {
+    "maKhachHang": "203",
+    "tenKH": "PHAN THANH TÙNG",
+    "tenOVua": "E1-44",
+    "ghiChu": "PHAN THANH TÙNG"
+  },
+  {
+    "maKhachHang": "204",
+    "tenKH": "THANH CHANH",
+    "tenOVua": "THANH CHANH",
+    "ghiChu": "THANH CHANH"
+  },
+  {
+    "maKhachHang": "205",
+    "tenKH": "LÊ MỘNG LOAN",
+    "tenOVua": "KDC",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "206",
+    "tenKH": "Hoàng Văn Nam",
+    "tenOVua": "D6-28",
+    "ghiChu": "D6-28"
+  },
+  {
+    "maKhachHang": "207",
+    "tenKH": "BÙI TUẤN ANH",
+    "tenOVua": "HOÀNG GIA",
+    "ghiChu": "VỰA HOÀNG GIA"
+  },
+  {
+    "maKhachHang": "208",
+    "tenKH": "Nguyễn Văn Dũng",
+    "tenOVua": "F1-13",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "209",
+    "tenKH": "",
+    "tenOVua": "A4-34",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "210",
+    "tenKH": "",
+    "tenOVua": "A4-38",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "211",
+    "tenKH": "NGUYỄN VĂN NHỊ",
+    "tenOVua": "A4-38",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "212",
+    "tenKH": "CTY  SỨC SỐNG XANH",
+    "tenOVua": "CTY SỨC SỐNG XANH",
+    "ghiChu": "CTY SỨC SỐNG XANH"
+  },
+  {
+    "maKhachHang": "213",
+    "tenKH": "NGUYỄN THỊ TUYẾT VÂN",
+    "tenOVua": "",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "216",
+    "tenKH": "Nguyễn  trung thế",
+    "tenOVua": "good fruit(GOFR)",
+    "ghiChu": "good fruit(GOFR)"
+  },
+  {
+    "maKhachHang": "217",
+    "tenKH": "Nguyễn  NGUYỄN TRUNG THỂ",
+    "tenOVua": "GOOD FRUIT",
+    "ghiChu": "GOOD FRUIT"
+  },
+  {
+    "maKhachHang": "218",
+    "tenKH": "Dương Thị  Liên",
+    "tenOVua": "F105",
+    "ghiChu": "F105"
+  },
+  {
+    "maKhachHang": "219",
+    "tenKH": "TRẦN  VĂN HÒA",
+    "tenOVua": "A6.28",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "24",
+    "tenKH": "Nguyễn Thị Bích Hồng",
+    "tenOVua": "Phượng Hùng",
+    "ghiChu": "MS Bãi Cont 1: 0,1,2"
+  },
+  {
+    "maKhachHang": "333",
+    "tenKH": "bagac",
+    "tenOVua": "",
+    "ghiChu": "BaGac"
+  },
+  {
+    "maKhachHang": "57",
+    "tenKH": "LÊ MỘNG LOAN",
+    "tenOVua": "",
+    "ghiChu": "KHU DÂN CƯ"
+  },
+  {
+    "maKhachHang": "58",
+    "tenKH": "Thanh Lỳ",
+    "tenOVua": "Thanh Lỳ",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "59",
+    "tenKH": "",
+    "tenOVua": "Điểm 1",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "60",
+    "tenKH": "Nguyễn Văn Tuân",
+    "tenOVua": "",
+    "ghiChu": "E5-43"
+  },
+  {
+    "maKhachHang": "61",
+    "tenKH": "Phạm Thị Gấm",
+    "tenOVua": "N1-07",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "62",
+    "tenKH": "Đỗ Uyên",
+    "tenOVua": "Khu dân cư",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "63",
+    "tenKH": "Hồ  Văn Phụng",
+    "tenOVua": "KHu dân Cư",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "64",
+    "tenKH": "Đào  Văn Sang",
+    "tenOVua": "Sáu Hoàng",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "65",
+    "tenKH": "Trần Minh Phương",
+    "tenOVua": "C4-41",
+    "ghiChu": "0967797079"
+  },
+  {
+    "maKhachHang": "66",
+    "tenKH": "Trần Văn Gìau",
+    "tenOVua": "O2-11",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "67",
+    "tenKH": "PHẠM HOÀI NINH",
+    "tenOVua": "N1-07",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "69",
+    "tenKH": "Lưu  Ngọc Hồng",
+    "tenOVua": "Hồng Sài Gòn",
+    "ghiChu": "0903937263"
+  },
+  {
+    "maKhachHang": "70",
+    "tenKH": "Lê Thị Kim Vân",
+    "tenOVua": "Út Vân",
+    "ghiChu": "0903811053"
+  },
+  {
+    "maKhachHang": "71",
+    "tenKH": "TRẦN THỊ HỒNG",
+    "tenOVua": "HỒNG HUẾ",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "72",
+    "tenKH": "TRƯƠNG THI BÍCH LIỄU",
+    "tenOVua": "KHU DÂN CƯ",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "73",
+    "tenKH": "LÊ THANH DŨNG",
+    "tenOVua": "O2-14",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "74",
+    "tenKH": "TRẦN THANH BON",
+    "tenOVua": "HOÀNG BON",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "75",
+    "tenKH": "Lưu Ngọc Hùng",
+    "tenOVua": "ĐIỂM KD SỐ 1",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "76",
+    "tenKH": "KIỆT HỒNG",
+    "tenOVua": "KIỆT HỒNG",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "77",
+    "tenKH": "ABC",
+    "tenOVua": "",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "78",
+    "tenKH": "KIỆT HỒNG",
+    "tenOVua": "KIỆT HỒNG",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "79",
+    "tenKH": "ĐINH HỮU THÀNH",
+    "tenOVua": "KHU DÂN CƯ",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "80",
+    "tenKH": "Thảo Lợi",
+    "tenOVua": "Thảo Lợi",
+    "ghiChu": "Thảo Lợi"
+  },
+  {
+    "maKhachHang": "81",
+    "tenKH": "LÝ THANH TÙNG",
+    "tenOVua": "A1-14",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "82",
+    "tenKH": "ĐÀO THỊ KIM TUYỀN",
+    "tenOVua": "khu dân cư trong chợ",
+    "ghiChu": "0932077818"
+  },
+  {
+    "maKhachHang": "83",
+    "tenKH": "",
+    "tenOVua": "Cty Thiên Thảo NGuyê",
+    "ghiChu": "0393921626"
+  },
+  {
+    "maKhachHang": "84",
+    "tenKH": "",
+    "tenOVua": "",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "85",
+    "tenKH": "",
+    "tenOVua": "Nga Loan",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "86",
+    "tenKH": "THANH LỲ",
+    "tenOVua": "THANH LỲ",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "87",
+    "tenKH": "CHÀNH BÍCH HỒNG",
+    "tenOVua": "CHÀNH BÍCH HỒNG",
+    "ghiChu": ""
+  },
+  {
+    "maKhachHang": "88",
+    "tenKH": "LÊ NGỌC THANH THÙY",
+    "tenOVua": "TÙNG TAM ĐẢO",
+    "ghiChu": "TÙNG TAM ĐẢO"
+  },
+  {
+    "maKhachHang": "89",
+    "tenKH": "TRƯƠNG THỊ KIM LOAN",
+    "tenOVua": "NGA LOAN",
+    "ghiChu": "NGA LOAN"
+  },
+  {
+    "maKhachHang": "90",
+    "tenKH": "HUỲNH THỊ THANH",
+    "tenOVua": "THANH LỲ",
+    "ghiChu": "THANH LỲ"
+  },
+  {
+    "maKhachHang": "91",
+    "tenKH": "TRẦN THỊ TUYẾT NGA",
+    "tenOVua": "CHÂU NGA",
+    "ghiChu": "CHÂU NGA (L2-1)"
+  },
+  {
+    "maKhachHang": "92",
+    "tenKH": "TRẦN VĂN LÀNH",
+    "tenOVua": "N1-19",
+    "ghiChu": "N1-19"
+  },
+  {
+    "maKhachHang": "93",
+    "tenKH": "NGUYỄN VĂN QUÝT",
+    "tenOVua": "THANH HẢI",
+    "ghiChu": "THANH HẢI"
+  },
+  {
+    "maKhachHang": "94",
+    "tenKH": "LƯƠNG NGỌC DŨNG",
+    "tenOVua": "HOÀNG LÊ",
+    "ghiChu": "HOÀNG LÊ"
+  },
+  {
+    "maKhachHang": "95",
+    "tenKH": "NGUYỄN THỊ HƯƠNG",
+    "tenOVua": "CHÀNH 13",
+    "ghiChu": "CHÀNH 13"
+  },
+  {
+    "maKhachHang": "96",
+    "tenKH": "ĐỨC TRUNG",
+    "tenOVua": "HẠNH NGỘ",
+    "ghiChu": "HẠNH NGỘ"
+  },
+  {
+    "maKhachHang": "97",
+    "tenKH": "LÝ THÀNH TÂN",
+    "tenOVua": "DIỄM TY",
+    "ghiChu": "DIỄM TY"
+  },
+  {
+    "maKhachHang": "98",
+    "tenKH": "VŨ VĂN HUY",
+    "tenOVua": "DIỄM TY",
+    "ghiChu": "DIỄM TY"
+  },
+  {
+    "maKhachHang": "99",
+    "tenKH": "Vũ  văn huy",
+    "tenOVua": "PHÚ NHUẬN",
+    "ghiChu": "PHÚ NHUẬN"
+  }
+]

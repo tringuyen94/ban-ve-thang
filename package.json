@@ -1,0 +1,88 @@
+{
+  "name": "ban-ve-thang",
+  "version": "1.0.0",
+  "description": "App ban ve thang - Cho Thu Duc",
+  "main": "main.js",
+  "scripts": {
+    "start": "cross-env ELECTRON_RUN_AS_NODE= electron .",
+    "dev": "cross-env ELECTRON_RUN_AS_NODE= NODE_ENV=development electron .",
+    "postinstall": "electron-rebuild -f -w better-sqlite3",
+    "rebuild": "electron-rebuild -f -w better-sqlite3",
+    "build:win": "electron-builder --win",
+    "build:mac": "electron-builder --mac",
+    "release:win": "dotenv -- electron-builder --win --publish always",
+    "release:mac": "dotenv -- electron-builder --mac --publish always"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "electron-updater": "^6.8.3"
+  },
+  "devDependencies": {
+    "@electron/rebuild": "^3.7.2",
+    "cross-env": "^10.1.0",
+    "dotenv-cli": "^11.0.0",
+    "electron": "^33.0.0",
+    "electron-builder": "^25.1.8",
+    "electron-rebuild": "^3.2.9",
+    "electron-reload": "^2.0.0-alpha.1",
+    "xlsx": "^0.18.5"
+  },
+  "build": {
+    "appId": "com.chothuduc.banvethang",
+    "productName": "Ban Ve Thang - Cho Thu Duc",
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "tringuyen94",
+        "repo": "ban-ve-thang",
+        "releaseType": "release"
+      }
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "assets/icon.png",
+      "renderer/**/*",
+      "node_modules/**/*",
+      "!node_modules/electron/**",
+      "!node_modules/electron-reload/**",
+      "!node_modules/cross-env/**",
+      "!node_modules/electron-builder/**"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerLanguages": [
+        "vi"
+      ],
+      "language": "1066"
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "icon": "assets/icon.icns",
+      "category": "public.app-category.business"
+    }
+  }
+}
