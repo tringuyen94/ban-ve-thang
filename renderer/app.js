@@ -1071,7 +1071,9 @@ async function loadBaoCao() {
     const data = await window.api.baoCaoTheoThang({ thang, nam });
     _lastBaoCao = { type: "baocao", thang, nam, tongHop: data.tongHop, chiTiet: data.chiTiet };
     $("#bc-btnExcel").style.display = "";
-    $("#bc-searchPhieu").value = "";
+    const searchEl = $("#bc-searchPhieu");
+    searchEl.value = "";
+    searchEl.style.display = (data.chiTiet && data.chiTiet.length > 0) ? "" : "none";
     renderBaoCao(data, thang, nam);
   } catch (err) {
     showToast("Lỗi: " + err.message, "error");
@@ -1267,6 +1269,7 @@ async function loadVuaChuaDong() {
     }
     _lastBaoCao = { type: "chuadong", thang, nam, danhSach: Array.from(grouped.values()) };
     $("#bc-btnExcel").style.display = "";
+    $("#bc-searchPhieu").style.display = "none";
     renderVuaChuaDong(grouped, thang, nam);
   } catch (err) {
     showToast("Lỗi: " + err.message, "error");
