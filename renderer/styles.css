@@ -1517,7 +1517,8 @@ tr:hover td { background: var(--row-hover); }
 }
 
 .baocao-filter select,
-.baocao-filter input[type="number"] {
+.baocao-filter input[type="number"],
+.baocao-filter input[type="text"] {
   padding: 7px 12px;
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -1530,7 +1531,8 @@ tr:hover td { background: var(--row-hover); }
 }
 
 [data-theme="dark"] .baocao-filter select,
-[data-theme="dark"] .baocao-filter input[type="number"] {
+[data-theme="dark"] .baocao-filter input[type="number"],
+[data-theme="dark"] .baocao-filter input[type="text"] {
   background: rgba(20, 30, 28, 0.5);
 }
 

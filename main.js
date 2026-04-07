@@ -1,4 +1,4 @@
-const { app, BrowserWindow, ipcMain, shell } = require("electron");
+const { app, BrowserWindow, ipcMain, shell, dialog } = require("electron");
 const { autoUpdater } = require("electron-updater");
 const path = require("path");
 const os = require("os");
@@ -58,13 +58,6 @@ function initSchema(db) {
       (2, 'Miễn phí lưu đậu'),
       (3, 'Miễn phí lưu đậu và nhập chợ');
 
-    UPDATE PhuongTien SET LoaiXe = 'xe_tai_nho' WHERE LoaiXe = 'xe_mien_phi';
-    DELETE FROM LoaiXe WHERE MaLoaiXe = 'xe_mien_phi';
-
-    UPDATE PhuongTien SET LoaiXe = 'ba_gac'
-    WHERE SUBSTR(BienSo,1,1) BETWEEN 'A' AND 'Z'
-      AND LoaiXe != 'ba_gac';
-
     CREATE TABLE IF NOT EXISTS KhachHang (
       MaKH        INTEGER PRIMARY KEY AUTOINCREMENT,
       TenOVua     TEXT UNIQUE,
@@ -95,6 +88,13 @@ function initSchema(db) {
       NhanVienBan  TEXT,
       NgayBan      TEXT    NOT NULL DEFAULT (date('now'))
     );
+
+    UPDATE PhuongTien SET LoaiXe = 'xe_tai_nho' WHERE LoaiXe = 'xe_mien_phi';
+    DELETE FROM LoaiXe WHERE MaLoaiXe = 'xe_mien_phi';
+
+    UPDATE PhuongTien SET LoaiXe = 'ba_gac'
+    WHERE SUBSTR(BienSo,1,1) BETWEEN 'A' AND 'Z'
+      AND LoaiXe != 'ba_gac';
   `);
 
   // Migration: đổi TenOVua → TenOVua
@@ -1027,6 +1027,17 @@ ipcMain.handle("restore-database", async () => {
       return { success: false, message: `File không hợp lệ. Thiếu bảng: ${missing.join(", ")}` };
     }
 
+    // Checkpoint WAL của file nguồn để đảm bảo mọi dữ liệu đã được flush
+    // vào file .db chính trước khi copy. Tránh mất dữ liệu nếu user chọn
+    // file backup được copy thủ công kèm WAL chưa checkpoint.
+    try {
+      const srcDb = new Database(srcPath);
+      srcDb.pragma("wal_checkpoint(TRUNCATE)");
+      srcDb.close();
+    } catch (e) {
+      return { success: false, message: `Không thể checkpoint WAL của file nguồn: ${e.message}` };
+    }
+
     // Close current database
     if (db) { db.close(); db = null; }
 
@@ -1044,6 +1055,9 @@ ipcMain.handle("restore-database", async () => {
     // Reopen database (will run migrations)
     getDb();
 
+    // Cleanup pre-restore safety copy on success
+    try { fs.unlinkSync(backupPath); } catch (_) {}
+
     return { success: true, filePath: srcPath };
   } catch (err) {
     // Try to recover from backup
@@ -1051,9 +1065,10 @@ ipcMain.handle("restore-database", async () => {
       const backupPath = dbPath + ".before-restore";
       if (fs.existsSync(backupPath)) {
         fs.copyFileSync(backupPath, dbPath);
-        getDb();
       }
     } catch (_) {}
+    // Always try to reopen DB so app remains usable
+    try { if (!db) getDb(); } catch (_) {}
     return { success: false, message: err.message };
   }
 });
