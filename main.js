@@ -1095,7 +1095,15 @@ function setupAutoUpdater(win) {
     win.webContents.send("update-error", err.message);
   });
   if (isProd) {
-    autoUpdater.checkForUpdates().catch(() => {});
+    // Chờ renderer load xong + 1s buffer để setupAutoUpdate() kịp attach
+    // các IPC listener trước khi autoUpdater bắn event update-available.
+    win.webContents.once("did-finish-load", () => {
+      setTimeout(() => {
+        autoUpdater.checkForUpdates().catch((err) => {
+          console.error("Auto-update check failed:", err);
+        });
+      }, 1000);
+    });
   }
 }
 
