@@ -618,41 +618,52 @@ async function doBanVeHangLoat() {
       };
     });
 
-    const results = await window.api.banVeHangLoat(items);
-    showToast(`Đã bán ${results.length} vé thành công!`, "success");
-
-    // In tất cả vé chung 1 phiếu
-    try {
-      const giamGia = discount < 1 ? Math.round((1 - discount) * 100) : 0;
-      const printItems = results.map((res) => {
-        const row = checkedRows.find((r) => r.bienSo === res.BienSo);
-        const mienPhi = loaiVe === "luu_dau" && blMienPhiLuuDau(row.trangThai);
-        const giaGoc = mienPhi ? 0 : blGetGia(row.loaiXe, loaiVe, khuVuc);
-        const gia = Math.round(giaGoc * discount);
-        return {
-          MaVe: res.MaVe,
-          BienSo: res.BienSo,
-          TenKH: blSelectedKH.TenKH,
-          TenOVua: blSelectedKH.TenOVua,
-          LoaiXe: row.loaiXe,
-          LoaiVe: loaiVe,
-          KhuVucLuuDau: khuVuc,
-          TuNgay: tuNgayVal,
-          DenNgay: isoDate(denNgay),
-          SoThang: soThang,
-          DonGiaGoc: giaGoc,
-          GiamGia: giamGia,
-          GiaTien: gia,
-          TongTien: gia * soThang,
-          SoPhieuThu: soPhieuThu,
-          NhanVienBan: nhanVien,
-        };
-      });
-      await window.api.printTicket(printItems);
-    } catch (printErr) {
-      showToast(`In vé thất bại: ${printErr.message}`, "error");
+    // Kiểm tra trùng vé (cùng biển số + loại vé + khoảng thời gian giao nhau)
+    const conflicts = await window.api.checkTrungVe(items);
+    if (conflicts && conflicts.length > 0) {
+      const ds = conflicts.map((c) => `${c.BienSo} (${c.TuNgay} → ${c.DenNgay})`).join(", ");
+      showToast(`Đã có vé trùng tháng cho: ${ds}`, "error");
+      return;
     }
 
+    // In tất cả vé chung 1 phiếu — chỉ ghi DB khi user nhấn "In vé"
+    const giamGia = discount < 1 ? Math.round((1 - discount) * 100) : 0;
+    const printItems = items.map((it) => {
+      const row = checkedRows.find((r) => r.bienSo === it.BienSo);
+      const mienPhi = loaiVe === "luu_dau" && blMienPhiLuuDau(row.trangThai);
+      const giaGoc = mienPhi ? 0 : blGetGia(row.loaiXe, loaiVe, khuVuc);
+      return {
+        BienSo: it.BienSo,
+        TenKH: blSelectedKH.TenKH,
+        TenOVua: blSelectedKH.TenOVua,
+        LoaiXe: row.loaiXe,
+        LoaiVe: loaiVe,
+        KhuVucLuuDau: khuVuc,
+        TuNgay: it.TuNgay,
+        DenNgay: it.DenNgay,
+        SoThang: soThang,
+        DonGiaGoc: giaGoc,
+        GiamGia: giamGia,
+        GiaTien: it.GiaTien,
+        TongTien: it.TongTien,
+        SoPhieuThu: soPhieuThu,
+        NhanVienBan: nhanVien,
+      };
+    });
+
+    const printResult = await window.api.printTicket(printItems);
+    if (!printResult || !printResult.printed) {
+      const reason = printResult && printResult.failureReason;
+      if (reason && reason !== "Print job canceled") {
+        showToast(`In thất bại: ${reason} — chưa lưu vé`, "error");
+      } else {
+        showToast("Đã hủy in, chưa lưu vé");
+      }
+      return;
+    }
+
+    const results = await window.api.banVeHangLoat(items);
+    showToast(`Đã bán ${results.length} vé thành công!`, "success");
     blReset();
   } catch (err) {
     showToast("Lỗi: " + err.message, "error");

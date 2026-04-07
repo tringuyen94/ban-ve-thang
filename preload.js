@@ -26,6 +26,7 @@ contextBridge.exposeInMainWorld("api", {
   banVe: (veData) => ipcRenderer.invoke("ban-ve", veData),
   banVeHangLoat: (items) => ipcRenderer.invoke("ban-ve-hang-loat", items),
   checkNhapCho: (params) => ipcRenderer.invoke("check-nhap-cho", params),
+  checkTrungVe: (items) => ipcRenderer.invoke("check-trung-ve", items),
   getVeByBienSo: (bienSo) => ipcRenderer.invoke("get-ve-by-bien-so", bienSo),
   searchVe: (params) => ipcRenderer.invoke("search-ve", params),
   getLichSuKH: (maKH) => ipcRenderer.invoke("get-lich-su-kh", maKH),

@@ -379,17 +379,20 @@ ipcMain.handle("get-xe-cua-kh", (_event, maKH) => {
   return getDb()
     .prepare(`
       SELECT p.BienSo, p.LoaiXe, p.TrangThai, t.TenTrangThai,
-             COALESCE(v.TuNgay, p.NgayBatDau) AS TuNgay,
-             COALESCE(v.DenNgay, p.NgayHetHan) AS DenNgay
+             COALESCE(
+               (SELECT v.TuNgay FROM VeThang v
+                WHERE v.BienSo = p.BienSo AND v.MaKH = p.MaKH
+                ORDER BY v.NgayBan DESC, v.MaVe DESC LIMIT 1),
+               p.NgayBatDau
+             ) AS TuNgay,
+             COALESCE(
+               (SELECT v.DenNgay FROM VeThang v
+                WHERE v.BienSo = p.BienSo AND v.MaKH = p.MaKH
+                ORDER BY v.NgayBan DESC, v.MaVe DESC LIMIT 1),
+               p.NgayHetHan
+             ) AS DenNgay
       FROM PhuongTien p
       LEFT JOIN TrangThai t ON t.MaTrangThai = p.TrangThai
-      LEFT JOIN VeThang v ON v.BienSo = p.BienSo
-        AND v.MaKH = p.MaKH
-        AND v.NgayBan = (
-          SELECT MAX(v2.NgayBan)
-          FROM VeThang v2
-          WHERE v2.BienSo = p.BienSo AND v2.MaKH = p.MaKH
-        )
       WHERE p.MaKH = ?
       ORDER BY p.BienSo
     `)
@@ -950,26 +953,50 @@ ipcMain.handle("print-ticket", async (_event, ticket) => {
     webPreferences: { preload: printPreload, contextIsolation: true, nodeIntegration: false },
   });
 
+  let printed = false;
+  let lastFailureReason = null;
+  let resolveResult;
+  const resultPromise = new Promise((resolve) => { resolveResult = resolve; });
+
   ipcMain.handleOnce("print-silent", async () => {
     // In nội dung iframe bằng cách load HTML vé vào cửa sổ ẩn
     const printWin = new BrowserWindow({ show: false, webPreferences: { contextIsolation: true } });
     await printWin.loadURL("data:text/html;charset=utf-8," + encodeURIComponent(html));
     return new Promise((resolve) => {
-      printWin.webContents.print({ silent: true, printBackground: true }, (success) => {
+      printWin.webContents.print({ silent: true, printBackground: true }, (success, failureReason) => {
         printWin.close();
-        resolve({ success });
+        if (success) printed = true;
+        lastFailureReason = failureReason || null;
+        resolve({ success, failureReason: lastFailureReason });
       });
     });
   });
 
   win.on("closed", () => {
     ipcMain.removeHandler("print-silent");
+    resolveResult({ printed, failureReason: lastFailureReason });
   });
 
   win.setMenuBarVisibility(false);
   await win.loadURL("data:text/html;charset=utf-8," + encodeURIComponent(previewHtml));
 
-  return { success: true };
+  return resultPromise;
+});
+
+ipcMain.handle("check-trung-ve", (_event, items) => {
+  const db = getDb();
+  const stmt = db.prepare(
+    `SELECT MaVe, BienSo, LoaiVe, TuNgay, DenNgay, SoPhieuThu
+     FROM VeThang
+     WHERE BienSo = ? AND LoaiVe = ?
+       AND TuNgay <= ? AND DenNgay >= ?`
+  );
+  const conflicts = [];
+  for (const it of items || []) {
+    const rows = stmt.all(it.BienSo, it.LoaiVe, it.DenNgay, it.TuNgay);
+    for (const r of rows) conflicts.push(r);
+  }
+  return conflicts;
 });
 
 // ---- Backup & Restore ----
